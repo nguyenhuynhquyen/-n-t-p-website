@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #ffffff;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 25px;
+}
+ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 70px;
+  background-image: url("/images/raucu.jpg");
+  height: 300px;
+  width: 100%;
+  background-position: left;
+}
+.banner h1 {
+  padding-bottom: 20px;
+  color: aliceblue;
+  font-size: 40px;
+}
+.banner p {
+  padding-bottom: 30px;
+  font-size: 25px;
+}
+.banner button {
+  width: 100px;
+  height: 50px;
+  background-color: #a5d6a7;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+}
+.banner button:hover {
+  background: #2e7d32;
+}
+.reason > h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.resons {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  font-size: 16px;
+}
+.product > h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.items {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  padding-top: 30px;
+}
+.card img {
+  height: 100%;
+  width: 200px;
+}
+.card h3 {
+  text-align: center;
+  padding-top: 10px;
+}
+.footer > h1 {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.info {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+}
+.info i {
+  cursor: pointer;
+  transition: 0.4s;
+  transform: translate(5px, 0px);
+}

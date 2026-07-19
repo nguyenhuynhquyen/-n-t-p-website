@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  cursor: pointer;
+}
+.logo h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.menu a:hover {
+  color: green;
+}
+ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  color: black;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px 0;
+}
+.banner h1 {
+  text-transform: uppercase;
+  padding-top: 30px;
+  font-size: 30px;
+}
+.banner p {
+  font-size: 20px;
+  padding-top: 15px;
+}
+.bannerbutton {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  cursor: pointer;
+  width: 200px;
+}
+.bannerbutton button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  background: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.bannerbutton button:hover {
+  background: #2e7d32;
+}
+
+.category > h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  padding-top: 20px;
+}
+.categori {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  padding-top: 35px;
+}
+.categori i {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+.category1,
+.category2,
+.category3 {
+  width: 180px;
+  height: 120px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.products > h1 {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid green;
+  border-radius: 5px;
+  height: 100px;
+  padding: 20px;
+  width: 100%;
+}
+.card img {
+  width: 100px;
+}
+.card button {
+  width: auto;
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: green;
+  color: white;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.reason > h1 {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+.resons {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.review > h1 {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+.list-review {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+.footer > h1 {
+  display: flex;
+  justify-content: center;
+}
+.footers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #4caf50;
+  color: white;
+  padding: 30px;
+  margin-top: 50px;
+  cursor: pointer;
+}
