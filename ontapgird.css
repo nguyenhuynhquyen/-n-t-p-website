@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+header h1 {
+  font-size: 40px;
+}
+ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: tomato;
+}
+button {
+  width: 100px;
+  height: 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+  background-color: rgba(165, 42, 42, 0.331);
+  color: white;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  margin: 40px 30px;
+  align-items: center;
+  gap: 100px;
+  height: 500px;
+  position: relative;
+  border: 2px solid orange;
+}
+.text p {
+  margin-top: 20px;
+}
+.text button {
+  margin-top: 20px;
+}
+.image {
+  object-fit: cover;
+}
+.sale {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 20px;
+}
+.service {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+.product {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin: 50px;
+  gap: 30px;
+}
+.card img {
+  width: 400px;
+  height: 300px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.banner-left {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+.text1 {
+  text-align: center;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 30px;
+  text-align: center;
+  gap: 20px;
+}
