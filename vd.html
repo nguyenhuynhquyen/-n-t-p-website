@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Khóa học Lập trình Web fullstack với PHP & MySQL</title>
+    <link rel="stylesheet" href="vd.css" />
+  </head>
+  <body>
+    <!-- Header Chuyên Nghiệp -->
+    <header>
+      <a href="index.html" class="logo">EduCourse.</a>
+
+      <div class="search-bar">
+        <input type="text" placeholder="Tìm kiếm khóa học..." />
+        <button>Tìm</button>
+      </div>
+
+      <nav>
+        <a href="index.html">Trang chủ</a>
+        <a href="#">Khóa học</a>
+        <a href="create-course.html" style="color: #10b981">+ Quản lý</a>
+
+        <!-- Đã đăng nhập -->
+        <div class="user-profile">
+          <div class="avatar">A</div>
+          <a href="#" style="color: #fff">Admin</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Content 2 Cột -->
+    <div class="container">
+      <div class="course-detail-grid">
+        <!-- Cột trái (Nội dung chính) -->
+        <main class="main-detail">
+          <!-- Box 1: Tiêu đề & Thông tin cơ bản -->
+          <div class="course-box">
+            <h1>Khóa Học Lập Trình Web Fullstack Từ Zero Đến Hero</h1>
+            <p style="color: #475569; margin-bottom: 15px; font-size: 15px">
+              Học lập trình web bài bản, tự tay xây dựng hệ thống thương mại
+              điện tử thực tế chuẩn kiến trúc MVC.
+            </p>
+            <div class="course-meta">
+              <span
+                >Đánh giá: <strong class="star-rating">4.9 ★</strong> (128 nhận
+                xét)</span
+              >
+              <span>• Học viên: <strong>1,450</strong></span>
+              <span>• Cập nhật: <strong>03/2026</strong></span>
+            </div>
+
+            <!-- Box Bạn sẽ học được gì -->
+            <div class="learning-outcomes">
+              <h3>Bạn sẽ học được gì trong khóa này?</h3>
+              <ul class="outcomes-list">
+                <li>Xây dựng Website chuẩn mô hình MVC từ đầu</li>
+                <li>Làm chủ HTML5, CSS3, Flexbox & Grid Layout</li>
+                <li>Tạo cơ sở dữ liệu MySQL tối ưu & Bảo mật PDO</li>
+                <li>Xử lý đăng ký, đăng nhập, bảo mật Session</li>
+                <li>Làm chức năng Giỏ hàng, Đánh giá, Phân trang</li>
+                <li>Deploy dự án thực tế lên Internet</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Box 2: Chương trình học (Lộ trình bài giảng) -->
+          <div class="course-box">
+            <h2 style="margin-bottom: 15px">Nội dung khóa học</h2>
+            <p style="font-size: 14px; color: #64748b; margin-bottom: 15px">
+              • 4 Chương - 12 Bài học - Thời lượng 08 giờ 30 phút
+            </p>
+
+            <!-- Chương 1 -->
+            <div class="curriculum-item">
+              <div class="curriculum-header">
+                <span>Chương 1: Tổng quan & Xây dựng Giao diện (HTML/CSS)</span>
+                <small>3 bài học</small>
+              </div>
+              <ul class="lesson-list">
+                <li>
+                  <span>Bài 1: Cấu trúc Semantic HTML5</span> <span>10:25</span>
+                </li>
+                <li>
+                  <span>Bài 2: Thiết kế giao diện theo Flexbox & Grid</span>
+                  <span>25:40</span>
+                </li>
+                <li>
+                  <span>Bài 3: CSS Responsive cho Mobile</span>
+                  <span>18:12</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Chương 2 -->
+            <div class="curriculum-item">
+              <div class="curriculum-header">
+                <span>Chương 2: Thiết kế Database & Mô hình MVC</span>
+                <small>3 bài học</small>
+              </div>
+              <ul class="lesson-list">
+                <li>
+                  <span>Bài 4: Phân tích CSDL MySQL</span> <span>15:00</span>
+                </li>
+                <li>
+                  <span>Bài 5: Khái niệm MVC & Routing</span> <span>30:00</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Box 3: Giảng viên -->
+          <div class="course-box">
+            <h2>Giảng viên hướng dẫn</h2>
+            <div
+              style="
+                display: flex;
+                gap: 15px;
+                margin-top: 15px;
+                align-items: center;
+              "
+            >
+              <img
+                src="https://via.placeholder.com/60"
+                style="border-radius: 50%"
+                alt="Teacher"
+              />
+              <div>
+                <h4>Nguyễn Văn A</h4>
+                <p style="font-size: 13px; color: #64748b">
+                  Senior Fullstack Developer với 8 năm kinh nghiệm
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Box 4: Đánh giá học viên (Review & Rating) -->
+          <div class="course-box">
+            <h2>Đánh giá từ học viên</h2>
+
+            <!-- Tổng quan sao -->
+            <div class="review-summary">
+              <div class="rating-score">
+                <div class="score-number">4.9</div>
+                <div class="star-rating">★★★★★</div>
+                <small style="color: #64748b">128 Đánh giá</small>
+              </div>
+              <div style="flex: 1">
+                <p style="font-size: 14px; color: #475569">
+                  Hơn 95% học viên đánh giá 5 sao cho chất lượng khóa học này.
+                </p>
+              </div>
+            </div>
+
+            <!-- Form gửi đánh giá -->
+            <form class="review-form" style="margin-bottom: 30px">
+              <h4 style="margin-bottom: 8px">Viết đánh giá của bạn:</h4>
+              <select
+                style="
+                  padding: 8px;
+                  border-radius: 4px;
+                  border: 1px solid #cbd5e1;
+                "
+              >
+                <option>5 ★ - Rất tuyệt vời</option>
+                <option>4 ★ - Tốt</option>
+                <option>3 ★ - Bình thường</option>
+              </select>
+              <textarea
+                rows="3"
+                placeholder="Chia sẻ cảm nhận của bạn về khóa học..."
+              ></textarea>
+              <button type="button" class="btn" style="margin-top: 10px">
+                Gửi nhận xét
+              </button>
+            </form>
+
+            <!-- Danh sách các bình luận -->
+            <div class="review-card">
+              <div class="review-card-header">
+                <div class="avatar" style="background: #e2e8f0; color: #0f172a">
+                  B
+                </div>
+                <div>
+                  <div class="reviewer-name">Trần Thị B</div>
+                  <div class="review-date">Đã đăng 2 ngày trước</div>
+                </div>
+              </div>
+              <div class="star-rating" style="font-size: 12px">★★★★★</div>
+              <p style="font-size: 14px; margin-top: 5px; color: #334155">
+                Khóa học rất thực tế, kiến thức truyền tải dễ hiểu. Nhờ khóa học
+                này mà mình làm xong đồ án tốt nghiệp xuất sắc!
+              </p>
+            </div>
+
+            <div class="review-card">
+              <div class="review-card-header">
+                <div class="avatar" style="background: #e2e8f0; color: #0f172a">
+                  C
+                </div>
+                <div>
+                  <div class="reviewer-name">Lê Hoàng C</div>
+                  <div class="review-date">Đã đăng 1 tuần trước</div>
+                </div>
+              </div>
+              <div class="star-rating" style="font-size: 12px">★★★★☆</div>
+              <p style="font-size: 14px; margin-top: 5px; color: #334155">
+                Giảng viên giải thích kỹ, support nhiệt tình.
+              </p>
+            </div>
+          </div>
+        </main>
+
+        <!-- Cột phải (Sidebar thanh toán) -->
+        <aside class="sidebar-sticky">
+          <div class="checkout-card">
+            <img
+              src="https://via.placeholder.com/400x220"
+              class="preview-img"
+              alt="Khóa học"
+            />
+            <div class="checkout-body">
+              <div class="price-group">
+                <span class="price-current">590.000đ</span>
+                <span class="price-old">1.200.000đ</span>
+              </div>
+
+              <button
+                class="btn btn-success btn-block"
+                style="margin-bottom: 10px; font-size: 16px"
+              >
+                Đăng Ký Học Ngay
+              </button>
+              <button class="btn btn-outline btn-block">
+                Thêm Vào Giỏ Hàng
+              </button>
+
+              <ul class="course-features-list">
+                <li>⏱ Thời lượng: <strong>8 giờ 30 phút</strong></li>
+                <li>📜 Cấp chứng chỉ hoàn thành</li>
+                <li>∞ Truy cập trọn đời</li>
+                <li>📱 Học được trên máy tính & điện thoại</li>
+              </ul>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-col">
+          <a href="#" class="logo">EduCourse.</a>
+          <p style="margin-top: 10px; font-size: 14px">
+            Hệ thống học lập trình trực tuyến uy tín, giúp học viên làm chủ công
+            nghệ và xây dựng sự nghiệp thành công.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Về EduCourse</h4>
+          <ul>
+            <li>Giới thiệu</li>
+            <li>Liên hệ</li>
+            <li>Tuyển dụng</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Hỗ trợ</h4>
+          <ul>
+            <li>Điều khoản sử dụng</li>
+            <li>Chính sách bảo mật</li>
+            <li>Câu hỏi thường gặp</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 EduCourse. Đồ án tốt nghiệp Công Nghệ Thông Tin.</p>
+      </div>
+    </footer>
+  </body>
+</html>
